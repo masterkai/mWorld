@@ -100,6 +100,8 @@
 // xhr.send();
  //regex for table element  /(<table[^>]*>(?:.|\n)*?<\/table>)/gi
 
+ // Modify another solution of Regex <(/)?(table|tbody|tr|td)[^>]*>.*
+
  $.get(mWorldurl, function (data) {
      $('#tabletext').val(data);
      var tContent = $('#tabletext').val();
